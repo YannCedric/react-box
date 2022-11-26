@@ -1,0 +1,19 @@
+.base {
+  gap: var(--gap);
+  border-radius: var(--radius);
+  padding: var(--padding);
+  border: var(--border);
+  background: var(--background);
+
+  display: flex;
+  width: fit-content;
+  height: fit-content;
+}
+
+.vertical {
+  flex-direction: column;
+}
+
+.horizontal {
+  flex-direction: row;
+}
