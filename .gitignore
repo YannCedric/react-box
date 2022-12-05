@@ -1,2 +1,8 @@
 dist
 node_modules
+
+# storybook stuff
+storybook-static
+
+# styles typedefs
+*.scss.d.ts
