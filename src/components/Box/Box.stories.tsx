@@ -55,22 +55,22 @@ Vertical.args = {
 
 const TemplateMix: ComponentStory<typeof Box> = (args) => (
   <Box {...args} vertical>
-    <Box>
+    <Box {...baseBoxProps}>
       <Dummy>{1}</Dummy>
       <Dummy>{2}</Dummy>
       <Dummy>{3}</Dummy>
     </Box>
-    <Box>
-      <Box vertical>
+    <Box {...baseBoxProps}>
+      <Box {...baseBoxProps} vertical>
         <Dummy>{4}</Dummy>
         <Dummy>{5}</Dummy>
       </Box>
-      <Box vertical>
+      <Box {...baseBoxProps} vertical>
         <Dummy>{6}</Dummy>
         <Dummy>{7}</Dummy>
       </Box>
     </Box>
-    <Box>
+    <Box {...baseBoxProps}>
       <Dummy>{8}</Dummy>
       <Dummy>{9}</Dummy>
       <Dummy>{10}</Dummy>

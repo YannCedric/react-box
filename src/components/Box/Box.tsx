@@ -1,5 +1,6 @@
 import React from "react";
-import "./Box.scss";
+import scss from "./Box.module.scss";
+
 import classnames from "classnames";
 
 type Units =
@@ -32,17 +33,17 @@ export interface BoxProps {
 }
 
 export function Box({
-  gap,
-  border,
-  radius,
-  padding,
+  gap = "0px",
+  border = "none",
+  radius = "0px",
+  padding = "0px",
   children,
   vertical,
   background,
 }: BoxProps) {
-  const classes = classnames("base", {
-    ["vertical"]: vertical,
-    ["horizontal"]: !vertical,
+  const classes = classnames(scss.base, {
+    [scss.vertical]: vertical,
+    [scss.horizontal]: !vertical,
   });
 
   const styles = {
