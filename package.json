@@ -1,7 +1,7 @@
 {
   "name": "react-box",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/YOUR_REPOSITORY_NAME"
+    "registry": "https://registry.npmjs.org"
   },
   "version": "0.1.0",
   "description": "Handy box thingy to lay things out in React",
