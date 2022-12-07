@@ -1,7 +1,11 @@
 {
-  "name": "react-box",
+  "name": "react-boxy",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YannCedric/react-box"
   },
   "version": "0.1.0",
   "description": "Handy box thingy to lay things out in React",
